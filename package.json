@@ -1,0 +1,35 @@
+{
+  "name": "trabajo-final-poo",
+  "version": "1.0.0",
+  "description": "Trabajo final del módulo de Programación Orientada a Objetos (POO)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "casino": "cd dist && node programa.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuzNiz/trabajo-final-poo.git"
+  },
+  "keywords": [
+    "trabajo-final"
+  ],
+  "author": "Altamiranda Sonia, Niz Luz, Patronelli Enzo, Viqueira Hugo Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuzNiz/trabajo-final-poo/issues"
+  },
+  "homepage": "https://github.com/LuzNiz/trabajo-final-poo#readme",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "colorette": "^2.0.20",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/clear": "^0.1.2",
+    "@types/emoji-js": "^3.5.0",
+    "@types/node": "^18.15.11",
+    "@types/readline-sync": "^1.4.4"
+  }
+}
